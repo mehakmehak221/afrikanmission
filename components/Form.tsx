@@ -11,7 +11,7 @@ export default function Form() {
         <FadeIn>
           <div className="text-center mb-16">
             <p className="font-display uppercase tracking-stamp text-xs text-gold mb-4 animate-pulse">
-              Subscriber Form · 01
+              Subscriber Form
             </p>
             <h3 className="font-display font-extrabold uppercase text-[clamp(2.5rem,6vw,4rem)] leading-[0.9] tracking-tightest mb-6 drop-shadow-lg">
               Take Your Place
@@ -24,7 +24,7 @@ export default function Form() {
           </div>
         </FadeIn>
 
-        <FadeIn delay={120} className="flex justify-center mt-12">
+        <FadeIn delay={120} className="flex justify-center mt-12 w-full">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScKBHJkLg0Y1SUPdmRuq5bCbiM-nyRr1zzA7l0k_QMvq3Tzyg/viewform?usp=dialog"
             target="_blank"
@@ -32,22 +32,26 @@ export default function Form() {
             className="
               relative group overflow-hidden
               font-display font-extrabold uppercase tracking-stamp
-              text-lg md:text-xl
+              text-sm sm:text-base md:text-lg lg:text-xl
               text-ink bg-paper
-              px-16 py-6 rounded-sm
+              w-full sm:w-auto
+              px-6 sm:px-12 md:px-16 
+              py-4 md:py-6 
+              rounded-sm
               transition-all duration-500 premium-ease
               border border-transparent
               hover:bg-gold hover:border-gold hover:text-white
               hover:shadow-[0_0_60px_rgba(212,175,55,0.4)]
               hover:-translate-y-1
+              text-center flex items-center justify-center
             "
           >
             <span className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500 premium-ease mix-blend-overlay" />
             <span className="absolute -inset-1 bg-gradient-to-r from-gold via-yellow-200 to-gold rounded-sm blur opacity-0 group-hover:opacity-30 transition duration-500 animate-pulse-glow pointer-events-none" aria-hidden />
             
-            <span className="relative flex items-center justify-center gap-4">
-              Open Subscription Form 
-              <span className="group-hover:translate-x-2 transition-transform duration-300">↗</span>
+            <span className="relative flex items-center justify-center gap-2 md:gap-4 w-full">
+              <span className="truncate">Open Subscription Form</span>
+              <span className="group-hover:translate-x-2 transition-transform duration-300 shrink-0">↗</span>
             </span>
           </a>
         </FadeIn>
