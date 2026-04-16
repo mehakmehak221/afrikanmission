@@ -29,6 +29,16 @@ export default function Page() {
           />
         </div>
 
+        <div className="mb-6">
+          <Image
+            src="/image.png"
+            alt="Afrikan Mission"
+            width={600}
+            height={600}
+            className="w-[260px] md:w-[380px] lg:w-[440px] h-auto mx-auto rounded-sm"
+          />
+        </div>
+
         <div className="max-w-4xl">
           <h1 className="font-header font-extrabold text-[1.3rem] md:text-[2rem] lg:text-[2.5rem] leading-tight uppercase tracking-tight">
             AfrikanMission.com Pre-launch &amp; Rise African Rise Music Video Premiere: Addis Ababa, Ethiopia (16 April 2026)
