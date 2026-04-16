@@ -43,8 +43,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${barlow.variable} ${lora.variable}`}>
-      <body className="bg-ink text-paper font-body antialiased selection:bg-gold selection:text-ink">
-        <div className="grain-overlay pointer-events-none" aria-hidden />
+      <body className="bg-ink text-paper font-body antialiased">
         {children}
       </body>
     </html>
