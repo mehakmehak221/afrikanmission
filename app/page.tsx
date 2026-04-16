@@ -42,8 +42,8 @@ export default function Page() {
       </section>
 
       {/* 3. CTA Section (JOIN THE AFRIKAN MISSION, Solid Maroon Banner, Barlow Yellow Text) */}
-      <section className="w-full bg-[#7E0C02] py-24 md:py-32 flex items-center justify-center text-center px-6">
-        <h2 className="font-header font-extrabold text-[3rem] md:text-[6rem] lg:text-[8rem] text-[#D4AF37] uppercase leading-[0.8] tracking-tight">
+      <section className="w-full bg-black py-24 md:py-32 flex items-center justify-center text-center px-6">
+        <h2 className="font-header font-extrabold text-[3rem] md:text-[6rem] lg:text-[8rem] text-white uppercase leading-[0.8] tracking-tight">
           JOIN THE AFRIKAN MISSION
         </h2>
       </section>
