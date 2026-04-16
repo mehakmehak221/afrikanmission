@@ -53,7 +53,7 @@ export default function Page() {
 
       {/* 3. CTA Section */}
       <section className="w-full bg-black py-10 md:py-14 flex items-center justify-center text-center px-6">
-        <h2 className="font-header font-extrabold text-[3rem] md:text-[6rem] lg:text-[6rem] text-white uppercase leading-[0.85] tracking-tight">
+        <h2 className="font-header font-semibold text-[3rem] md:text-[6rem] lg:text-[6rem] text-white uppercase leading-[0.85] tracking-tight">
           JOIN THE AFRIKAN MISSION
         </h2>
       </section>
