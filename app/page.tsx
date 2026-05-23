@@ -19,7 +19,7 @@ export default function Page() {
           />
         </div>
 
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <Image
             src="/main-image.jpeg"
             alt="Live with Teleskope – Rise Afrika Rise Launch in Addis Ababa"
@@ -27,9 +27,9 @@ export default function Page() {
             height={900}
             className="w-[260px] md:w-[380px] lg:w-[440px] h-auto mx-auto rounded-sm shadow-[0_0_40px_rgba(212,175,55,0.12)]"
           />
-        </div>
+        </div> */}
 
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <Image
             src="/image.png"
             alt="Afrikan Mission"
@@ -37,13 +37,13 @@ export default function Page() {
             height={600}
             className="w-[260px] md:w-[380px] lg:w-[440px] h-auto mx-auto rounded-sm"
           />
-        </div>
+        </div> */}
 
-        <div className="max-w-4xl">
+        {/* <div className="max-w-4xl">
           <h1 className="font-header font-extrabold text-[1.3rem] md:text-[2rem] lg:text-[2.5rem] leading-tight uppercase tracking-tight">
             AfrikanMission.com Pre-launch &amp; Rise African Rise Music Video Premiere: Addis Ababa, Ethiopia (16 April 2026)
           </h1>
-        </div>
+        </div> */}
       </section>
 
       {/* 2. Video Section */}
