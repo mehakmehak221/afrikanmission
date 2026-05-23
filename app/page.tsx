@@ -47,7 +47,7 @@ export default function Page() {
       </section>
 
       {/* 2. Video Section */}
-      <section className="w-full bg-[#1a1a1a] border-y border-white/5 py-10 md:py-14 flex flex-col items-center">
+      <section className="w-full bg-black border-y border-white/5 py-10 md:py-14 flex flex-col items-center">
         <div className="w-full max-w-5xl px-6">
           <div className="relative aspect-video bg-black border border-white/10">
             <iframe
